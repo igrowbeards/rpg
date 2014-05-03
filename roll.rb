@@ -1,33 +1,38 @@
 class Roller
 
-	def self.averageRoll(number_of_dice, die_type, iterations = 100)
+	require 'rubygems'
+	require 'dicebag'
 
-		arr = []
-		iterations.times do
-			roll = []
-			number_of_dice.times do
-				this_roll = rand(1..die_type)
-				if this_roll == die_type
-					this_roll += rand(1..die_type) - 1
-				end
-				roll.push this_roll
+	def self.ability_scores
+		scores = []
+		dq = "1d6"
+		dt = "1d12"
+		7.times do
+			dqRoll = DiceBag::Roll.new(dq)
+			dtRoll = DiceBag::Roll.new(dt)
+			case dqRoll.result.total
+			when 1..3
+				dieQuant = 1
+			when 4..5
+				dieQuant = 2
+			when 6
+				dieQuant = 3
 			end
-			arr.push(roll.max)
+			case dtRoll.result.total
+			when 1..4
+				dieType = "d4"
+			when 5..7
+				dieType = "d6"
+			when 8..10
+				dieType = "d8"
+			when 11
+				dieType = "d10"
+			when 12
+				dieType = "d12"
+			end
+			scores.push "#{dieQuant}#{dieType}"
 		end
-
-		b = Hash.new(0)
-
-		arr.sort!
-		arr.each do |v|
-			b[v] += 1
-		end
-
-		b.each do |k , v|
-			puts "#{k} appears: #{v} times"
-		end
-
-		return nil
-
+		return scores
 	end
 
 end
