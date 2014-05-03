@@ -48,6 +48,7 @@ Sample target difficulties
 	<dd>15</dd>
 </dl>
 
+
 Ability Checks
 --------------
 
@@ -56,14 +57,31 @@ To roll an ability check simply roll the quantity and type of dice equal to your
 Skill Checks
 ------------
 
-All skills have a root attribute. In order to roll a skill check
+All skills have a root attribute. The root attribute determines the type of die you roll while
+your rank in the skill determines the number of dice you roll. The maximum amount of skill points is five.
 
 
 Opposed Rolls
 -------------
 
+Some rolls are rolled against another player or npc instead of against a static target number.
+Examples might be if your character tried to hit someone who was actively trying not to get hit,
+or trying to coerce information out of prisoner. In the first case you would be rolling your
+fighting ability versus theirs. In the second case you might be rolling your charisma ability
+score versus the prisoners willpower ability score.
+
+
 Critical Success
 ----------------
+Every multiple of the target number counts as an extra success. Regarding skill and ability checks
+this normally just means that you accomplish your goal particularly well.
+
 
 Critical Failures
 -----------------
+If more than half your dice come up as 1's you just rolled a critical failure. Not only do you fail your check
+(no matter what you highest roll was) but you fail spectacularly. A general guideline for GM's is that
+if the task is something where the consequences of failure are generally non-lethal the failure should
+be as inconvenient as possible for the player rolling it and the party as a whole, and maybe even
+cause a small amount of damage to the character rolling it. If the task is a check that will avoid
+damage, then double the damage done.
