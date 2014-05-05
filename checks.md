@@ -13,7 +13,8 @@ For example:
 
 Tim roll a toughness check to fight off a cold.
 He rolls his toughness of 3d4 and gets a 1, a 3, and a 4.
-Since 4 is the highest number you can roll on that die type Tim gets to reroll that die and add the new result minus one to the original result of 4.
+Since 4 is the highest number you can roll on that die type Tim gets to reroll that die
+and add the new result minus one to the original result of 4.
 This time he rolls a 3, one is subtracted bringing his second roll total down to 2
 which is then added to his original four for a total of six.
 
