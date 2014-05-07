@@ -8,7 +8,7 @@ Combat in the (Currently Unnamed) System
 
 	After everyone has rolled their initiative the dm will start with the highest number rolled and begin counting down from there.
 	When they call your number you may act. In cases of a tie when who goes first matters
-	(two characters in melee both hve the same initiative score) roll quickness checks for both characters - the highest goes first.
+	(two characters in melee both have the same initiative score) roll quickness checks for both characters - the highest goes first.
 
 ###Movement
 	Characters can move 3 times their size per action spent.
@@ -42,11 +42,11 @@ Typically but not always (GM discretion) this is either their fighting skill or 
 
 Success allows damage roll
 
-Any amount of raises adds 1d6 of damage to the damage roll
 
 If you lose your attack roll nothing happens. If your opponenent gets a raise
-on you lose and action (if you have one to lose), if you go bust on a mellee attack roll
+lose and action (if you have one to lose), if you go bust on a mellee attack roll
 your target gets an automatic attack on you even if they are out of actions.
+Defending never takes an action.
 
 Melee Weapons do the damage listed plus your str bonus. On melee attacks there is no limit to the str bonus.
 
@@ -70,5 +70,85 @@ Taking a non-combat action while in melee can provoke an attack of opportunity. 
 anyone in melee with you can discard their highest action (even is it isn't time for it) to make an immediate
 attack roll.
 
-### Armor and Taking Damage
+###Determining Hit Location
 
+There are two ways to handle this - the first if that only players and important npcs take damage to specific locations - this option makes the game go faster.
+The other option is that you always roll hit location for every character - this will make the combat take longer but may be more fun if your group is into that.
+
+**Rolling to determine hit location:**
+
+Roll a d20:
+
+   20...head
+17-19...torso
+14-16...right arm
+11-13...left arm
+   10...vitals
+  7-9...torso
+  4-6...right leg
+  1-3...left leg
+
+If you hit in the vitals add and extra d6 of damage. If you hit in the head add an extra 2d6 of damage.
+
+For each size category you are smaller than your opponent subtract 2 from the roll up to a miximum of -6.
+There is no change for being larger than another creature.
+(It's much easier for a giant to crush a goblins foot with his club than it is for a goblin to stab a giant in the eye.)
+
+###Taking Damage
+You take wounds for every multiple of your size that is dealt to you in damage:
+
+Diminutive: 1
+(ex a single rat, a frog)
+Tiny : 2
+(ex a cat, a racoon)
+Very Small: 3
+(a gnome, a corgi)
+Small: 4
+(a halfling, an average sized dog)
+Medium: 5
+(an average human, a great dane)
+Large: 6
+(an average half-orc, a horse)
+Very Large: 7
+(a full sized orc, a small dragon)
+Huge: 8
+(an ogre, a medium dragon)
+Giant: 9
+(a hill giant, an adult dragon)
+Colossal: 10
+(the statue of liberty, an ancient dragon)
+
+###Armor
+
+Armor reduces damage taken after you are hit by 1 point for each armor level. If someone is hit and chooses to discard their next action
+they can make an armor check vs. a target of 8 to reduce the damage.
+If they pass their armor check they can roll their armor's damage reduction die and subtract this from the damage taken.
+
+Example Armor:
+
+Leather:
+Armor Level - 1
+Maneuverability - 4
+Active reduction -  1d4
+
+Chain Mail:
+Armor Level - 2
+Maneuverability - 6
+Active reduction -  1d6
+
+Half Plate:
+Armor Level - 3
+Maneuverability - 8
+Active reduction -  2d6
+
+Plate Mail:
+Armor Level - 4
+Maneuverability - 12
+Active reduction -  1d8
+
+Each armor level reduces your dexterity by 1 level. For example if you have 3d8 in dexterity and are wearing half plate your
+dexterity when wearing your armor would be 3d6 (2 steps, 3d8 > 2d8 > 1d8 > 3d6).
+
+###Shields
+
+(i really have no idea how to bring shields into this...)

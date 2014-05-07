@@ -59,7 +59,7 @@ Skill Checks
 ------------
 
 All skills have a root attribute. The root attribute determines the type of die you roll while
-your rank in the skill determines the number of dice you roll. The maximum amount of skill points is five.
+your rank in the skill determines the number of dice you roll. The maximum amount of skill points is four.
 
 
 Opposed Rolls
